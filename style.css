@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+h1{
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+
+body{
+    
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Italic";
+}
+
+
+.container{
+    background-color: rgba(0 , 0, 0 , 0.7);
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 500px;
+    padding: 20px;
+    align-self: center;
+    border-radius: 25px;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container>.row{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+
+
+.name{
+    color: goldenrod;
+    font-size: x-large;
+    font-style: bold;
+    margin-top: 10px;
+}
+
+
+.score{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    margin: 20px;
+    align-self: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.goals{
+    color: rgb(249, 249, 249);
+    font-size: x-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+
+#strike{
+    background-color:orangered;
+    font-size: larger;
+    width:180px;
+    height:200 px;
+    color:white;
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+#try{
+    background-color:orangered;
+    font-size: larger;
+    width:180px;
+    height:150 px;
+    color:white;
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#circle{
+    display: inline-block;
+}
+
+
+#result{
+    background-image: radial-gradient(rgb(6, 3, 12),rgb(0, 0, 0) ,rgb(0, 0, 0));
+    font-size: x-large;
+    color:white;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#team1scores{
+    margin-top: 20px;
+}
+body{
+    background-image: url('bg2.jpeg');
+}
